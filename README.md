@@ -1,2 +1,2 @@
-# The-Places-You-ll-Go
+# The-Places-Youll-Go
 A travel blog created using HTML, CSS, and Javascript

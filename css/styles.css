@@ -1,0 +1,35 @@
+
+/* Header */
+.main-header {
+  background: #f2ede8;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.35em;
+  font-family: 'Meddon', cursive;
+  padding: 10px;
+}
+
+.main-nav {
+  margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
+  text-align: center;
+  display: block;
+  color: #454547;
+  text-decoration: none;
+}
+
+.main-nav a {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  padding: 7px;
+}
+
+.main-nav a:hover {
+  opacity: 15%;
+}

@@ -11,6 +11,11 @@
   padding: 10px;
 }
 
+.name-container {
+  display: flex;
+  padding: 5px;
+}
+
 .main-nav {
   margin-top: 5px;
 }
@@ -30,6 +35,212 @@
   padding: 7px;
 }
 
-.main-nav a:hover {
-  opacity: 15%;
+.main-nav a:hover,
+.name a:hover {
+  color: #38564E;
 }
+
+/* Hero Banner */
+.hero {
+  background: url("../images/hero.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  background: #6A9792;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 20px;
+}
+
+.hero-content p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.50em;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.25em;
+  line-height: 35px;
+}
+
+.hero .hero-btn {
+  background-color: #f2ede8;
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.20em;
+  color: #454547;
+  font-weight: 300;
+}
+
+.hero .hero-btn:hover {
+  color: #BC8C62;
+  background-color: #38564E;
+}
+
+/* Why The Places You'll Go Section */
+.container,
+.section {
+  background-color: #f2ede8;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container .headline {
+text-transform: uppercase;
+color: #454547;
+font-size: 1.75em;
+font-weight: 500;
+letter-spacing: 0.10em;
+margin-bottom: 0;
+padding-top: 50px;
+}
+
+.container .sub-headline {
+  font-family: 'Meddon', cursive;
+  color: #454547;
+  font-size: 1.25em;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  letter-spacing: 0.10em;
+  color: #454547;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.container p {
+  color: #454547;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85em;
+  line-height: 25px;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+.container .about-btn {
+  background-color: #6A9792;
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.20em;
+  color: #f2ede8;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.container .about-btn:hover {
+  background: #BC8C62;
+  color: #000;
+}
+
+.container img {
+ width: 400px;
+}
+
+/* Banner 2 */
+.banner-2 {
+  background: url("../images/villas.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-2-content {
+  background: #B1D7D8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 20px;
+}
+
+.banner-2-content p {
+  color: #454547;
+  text-transform: uppercase;
+  font-size: 1.50em;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.25em;
+  line-height: 35px;
+}
+
+.banner-2 .banner-2-btn {
+  background-color: #f2ede8;
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.20em;
+  color: #454547;
+  font-weight: 300;
+}
+
+.banner-2 .banner-2-btn:hover {
+  color: #BC8C62;
+  background-color: #38564E;
+}
+
+/* Footer */
+
+.footer {
+  background: #f2ede8;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer .footer-headline {
+  text-transform: uppercase;
+  color: #454547;
+  font-size: 1.75em;
+  font-weight: 500;
+  letter-spacing: 0.10em;
+  margin-bottom: 0;
+  padding-top: 50px; 
+}
+
+i {
+  padding: 30px;
+  color: #454547;
+  font-size: 20px;
+}
+
+i:hover {
+  padding: 30px;
+  color: #BC8C62;
+  font-size: 20px;
+}
+
+.footer .copyright {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #454547;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+}
+
+
+
+
+
